@@ -9,6 +9,7 @@
     // Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "ftuser",
     "workspaceFolder": "/workspaces/ftuser",
+    "postStartCommand": "nohup bash -c 'freqtrade webserver --no-color --userdir /workspaces/ftuser/user_data --config /workspaces/ftuser/user_data/config.json --logfile /workspaces/ftuser/user_data/logs/freqtrade.log&' > /dev/null",
     "customizations": {
         "vscode": {
             "settings": {
