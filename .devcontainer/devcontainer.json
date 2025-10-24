@@ -20,6 +20,12 @@
                     "files.trimTrailingWhitespace": false
                 },
                 "python.pythonPath": "/usr/local/bin/python",
+                "python.analysis.extraPaths": [
+                    "/freqtrade"
+                ],
+                "python.autoComplete.extraPaths": [
+                    "/freqtrade"
+                ],
                 "[python]": {
                     "editor.codeActionsOnSave": {
                         "source.organizeImports": "explicit"
